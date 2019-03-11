@@ -1,18 +1,31 @@
 img{
   width:100%;
 }
+#arrow{
+  display: inline-block;
+  /* float:left;  remove */
+  margin: 10px 10px 0 0;
+  padding: 5px 10px
+}
 .img-holder{
   position: absolute;
-  width:200%;
-  margin: 0 auto !important;
+  width:90vw;
+  margin-left: -20%;
   left: 0 !important;
-  transform: translateX(-10%);
+  height:120%;
+
 }
 .img-holder img{
   transition: .2s ease-in;
-  opacity: 0;
-  width: 5% !important;
+  opacity: .05;
+  width: 8% !important;
+  position: relative;
+  width:  100px;
+  height: 100px;
+  object-fit:scale-down;
 }
-.img-holder img:hover {
+
+img:hover {
   opacity: 1;
+  transform: scale(2);
 }
