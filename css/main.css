@@ -10,7 +10,7 @@ img{
 .img-holder{
   position: absolute;
   width:90vw;
-  margin-left: -20%;
+  margin-left: -18%;
   left: 0 !important;
   height:120%;
 
@@ -28,4 +28,14 @@ img{
 img:hover {
   opacity: 1;
   transform: scale(2);
+}
+.mem-container .three{
+  border: 2px solid black;
+}
+.mem-container img{
+  transition: .2s ease-in;
+}
+
+.mem-container .columns:hover img{
+  transform: scale(1.5) translateY(10%);
 }
