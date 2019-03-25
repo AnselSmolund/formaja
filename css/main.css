@@ -1,6 +1,15 @@
 img{
   width:100%;
 }
+#main-container{
+  display: none;
+}
+.login-page{
+  position: absolute;
+  margin: 0 auto;
+  left:38%;
+  top: 40%;
+}
 #arrow{
   display: inline-block;
   /* float:left;  remove */
